@@ -10,7 +10,10 @@
   justify-content: flex-end;
   padding-top: 3em;
   position: relative;
+
   top: 300px;
+  top: 200px;
+
   bottom: 0;
   width: 100%;
 }
