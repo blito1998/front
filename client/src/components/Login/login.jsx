@@ -15,13 +15,8 @@ export default () => {
             placeholder="Digite a sua senha"
           />
           <button type="submit">Login</button>
-          
         </form>
       </Main>
-
-      
     </div>
-
-
   );
 };

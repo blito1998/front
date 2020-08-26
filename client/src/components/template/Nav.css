@@ -11,7 +11,7 @@
   font-size: 1.2rem;
 }
 .navbar-logo {
-  color: #F7C322;
+  color: #f7c322;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -39,6 +39,7 @@
   background-color: #6d76f7;
   border-radius: 4px;
   transition: all 0.2 ease-out;
+  text-decoration: none;
 }
 .fa-bars {
   color: #fff;

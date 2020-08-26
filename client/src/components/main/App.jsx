@@ -3,6 +3,7 @@ import "font-awesome/css/font-awesome.min.css";
 import React from "react";
 import Navbar from "../template/Nav";
 import Rodape from "../template/Footer";
+
 import { HashRouter } from "react-router-dom";
 import Routes from "./Routes";
 export default (props) => (
@@ -11,8 +12,6 @@ export default (props) => (
       <Navbar />
       <Routes />
       <Rodape />
-      
-      
     </div>
   </HashRouter>
 );

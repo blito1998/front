@@ -8,11 +8,13 @@ class Navbar extends Component {
   handlenClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
+
   render() {
     return (
+      <>
         <nav className="NavbarItems">
           <h1 className="navbar-logo">
-            TopsterCine<i className="fab fa-react"></i>
+            <i className="fab fa-react">TopsterCine</i>
           </h1>
           <div className="menu-icon" onClick={this.handlenClick}>
             <i
@@ -31,9 +33,8 @@ class Navbar extends Component {
             })}
           </ul>
         </nav>
-        
+      </>
     );
-    
   }
 }
 
